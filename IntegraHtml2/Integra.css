@@ -1,0 +1,1174 @@
+.mediaViewInfo {
+	--web-view-name: Cadastro-Pacientes-Farmacia;
+	--web-view-id: Cadastro_Pacientes_Farmacia;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Cadastro_Pacientes_Farmacia;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#Cadastro_Pacientes_Farmacia {
+	position: absolute;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	width: 1280px;
+	height: 1838px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	--web-view-name: Cadastro-Pacientes-Farmacia;
+	--web-view-id: Cadastro_Pacientes_Farmacia;
+	--web-enable-deep-linking: true;
+}
+#_ltima_edi__o_07h40___13_08_20 {
+	position: absolute;
+	left: 180px;
+	top: 428px;
+	overflow: visible;
+	width: 400px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Registrado_por_ {
+	position: absolute;
+	left: 198px;
+	top: 550px;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Anota__es_do_atendimento_ {
+	position: absolute;
+	left: 107px;
+	top: 619px;
+	overflow: visible;
+	width: 201px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+.Caminho_2010 {
+	overflow: visible;
+	position: absolute;
+	top: 539px;
+	left: 328px;
+	width: 656px;
+	height: 41.43px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_2009 {
+	overflow: visible;
+	position: absolute;
+	top: 608px;
+	left: 328px;
+	width: 656px;
+	height: 333.333px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Linha_4 {
+	overflow: visible;
+	position: absolute;
+	top: 455.5px;
+	left: 184.5px;
+	width: 899.006px;
+	height: 6px;
+}
+#Grupo_2850 {
+	position: absolute;
+	width: 68px;
+	height: 38px;
+	left: 328px;
+	top: 486px;
+	overflow: visible;
+}
+#select {
+	position: absolute;
+	width: 68px;
+	height: 38px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ret_ngulo_8 {
+	position: absolute;
+	overflow: visible;
+	width: 68px;
+	height: 38px;
+	left: 0px;
+	top: 0px;
+}
+#Dia {
+	position: absolute;
+	left: 13px;
+	top: 8px;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(204,204,204,1);
+}
+#icon__select {
+	position: absolute;
+	width: 10px;
+	height: 13px;
+	left: 45px;
+	top: 13px;
+	overflow: visible;
+}
+.Caminho_7 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	height: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_4 {
+	overflow: visible;
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	width: 10px;
+	height: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Grupo_2849 {
+	position: absolute;
+	width: 165px;
+	height: 38px;
+	left: 410px;
+	top: 486px;
+	overflow: visible;
+}
+#select_A23_Group_801 {
+	position: absolute;
+	width: 165px;
+	height: 38px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ret_ngulo_8_A23_Rectangle_508 {
+	position: absolute;
+	overflow: visible;
+	width: 165px;
+	height: 38px;
+	left: 0px;
+	top: 0px;
+}
+#M_s {
+	position: absolute;
+	left: 46.184px;
+	top: 8px;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(204,204,204,1);
+}
+#icon__select_A23_Group_802 {
+	position: absolute;
+	width: 10px;
+	height: 13px;
+	left: 139.259px;
+	top: 13px;
+	overflow: visible;
+}
+.Caminho_7_A23_Path_747 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	height: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_4_A23_Path_748 {
+	overflow: visible;
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	width: 10px;
+	height: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Grupo_2848 {
+	position: absolute;
+	width: 109px;
+	height: 38px;
+	left: 587px;
+	top: 486px;
+	overflow: visible;
+}
+#select_A23_Group_804 {
+	position: absolute;
+	width: 109px;
+	height: 38px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ret_ngulo_8_A23_Rectangle_509 {
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	height: 38px;
+	left: 0px;
+	top: 0px;
+}
+#Ano {
+	position: absolute;
+	left: 27.306px;
+	top: 8px;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(204,204,204,1);
+}
+#icon__select_A23_Group_805 {
+	position: absolute;
+	width: 10px;
+	height: 13px;
+	left: 83.259px;
+	top: 13px;
+	overflow: visible;
+}
+.Caminho_7_A23_Path_749 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	height: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_4_A23_Path_750 {
+	overflow: visible;
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	width: 10px;
+	height: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Data_de_atendimento_ {
+	position: absolute;
+	left: 147px;
+	top: 493.532px;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#VOLTAR {
+	position: absolute;
+	left: 869px;
+	top: 973px;
+	overflow: visible;
+	width: 40px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(128,128,128,1);
+}
+.Ret_ngulo_1638 {
+	position: absolute;
+	overflow: visible;
+	width: 899px;
+	height: 29px;
+	left: 184px;
+	top: 187px;
+}
+#CADASTRO_DE_PACIENTES {
+	position: absolute;
+	left: 196px;
+	top: 191px;
+	overflow: visible;
+	width: 206px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#VOLTAR_A23_Text_963 {
+	position: absolute;
+	left: 1022px;
+	top: 164px;
+	overflow: visible;
+	width: 40px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(128,128,128,1);
+}
+#Grupo_2659 {
+	position: absolute;
+	width: 38.267px;
+	height: 33.471px;
+	left: 270.395px;
+	top: 125px;
+	overflow: visible;
+}
+.Interse__o_5 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 38.267px;
+	height: 33.471px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#SPF000461 {
+	position: absolute;
+	left: 979px;
+	top: 192px;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+.Ret_ngulo_8_A23_Rectangle_511 {
+	position: absolute;
+	overflow: visible;
+	width: 415px;
+	height: 38px;
+	left: 668px;
+	top: 339px;
+}
+#Farm_cia {
+	position: absolute;
+	left: 691.462px;
+	top: 348px;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#icon__select_A23_Group_807 {
+	position: absolute;
+	width: 10px;
+	height: 13px;
+	left: 1057.259px;
+	top: 352px;
+	overflow: visible;
+}
+.Caminho_7_A23_Path_751 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	height: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_4_A23_Path_752 {
+	overflow: visible;
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	width: 10px;
+	height: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ret_ngulo_9 {
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	height: 38px;
+	left: 546px;
+	top: 255px;
+}
+.Ret_ngulo_9_A23_Rectangle_513 {
+	position: absolute;
+	overflow: visible;
+	width: 112px;
+	height: 38px;
+	left: 433px;
+	top: 255px;
+}
+.Caminho_2002 {
+	overflow: visible;
+	position: absolute;
+	top: 255px;
+	left: 734px;
+	width: 113px;
+	height: 38px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Data_de_atendimento____Registr {
+	position: absolute;
+	left: 216px;
+	top: 1154px;
+	overflow: hidden;
+	width: 676px;
+	height: 374px;
+	line-height: 23px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(90,90,90,1);
+}
+#Grupo_2884 {
+	position: absolute;
+	width: 122.29px;
+	height: 23px;
+	left: 968px;
+	top: 1528px;
+	overflow: visible;
+}
+#Caminho_2022 {
+	filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.239));
+}
+.Caminho_2022 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 128.29px;
+	height: 29px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#EDITAR {
+	position: absolute;
+	left: 43.427px;
+	top: 4.636px;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Ret_ngulo_1703 {
+	position: absolute;
+	overflow: visible;
+	width: 899px;
+	height: 29px;
+	left: 200px;
+	top: 1106px;
+}
+#_09h20___22_08_2017_por_Ver_ni {
+	position: absolute;
+	left: 212px;
+	top: 1110px;
+	overflow: visible;
+	width: 303px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#Farm_cia_04 {
+	position: absolute;
+	left: 998px;
+	top: 1111px;
+	overflow: visible;
+	width: 92px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#_ {
+	position: absolute;
+	left: 181px;
+	top: 1604px;
+	overflow: visible;
+	width: 10px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(45,154,227,1);
+}
+#__A23_Text_971 {
+	position: absolute;
+	left: 181px;
+	top: 1652px;
+	overflow: visible;
+	width: 10px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(45,154,227,1);
+}
+#__A23_Text_972 {
+	position: absolute;
+	left: 181px;
+	top: 1700px;
+	overflow: visible;
+	width: 10px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(45,154,227,1);
+}
+.Ret_ngulo_1704 {
+	position: absolute;
+	overflow: visible;
+	width: 899px;
+	height: 29px;
+	left: 200px;
+	top: 1600px;
+}
+.Ret_ngulo_1705 {
+	position: absolute;
+	overflow: visible;
+	width: 899px;
+	height: 29px;
+	left: 200px;
+	top: 1648px;
+}
+.Ret_ngulo_1706 {
+	position: absolute;
+	overflow: visible;
+	width: 899px;
+	height: 29px;
+	left: 200px;
+	top: 1696px;
+}
+#ID23h14___04_08_2017_por_Ver_n {
+	position: absolute;
+	left: 212px;
+	top: 1605px;
+	overflow: visible;
+	width: 294px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#ID16h20___13_07_2017_por_Ver_n {
+	position: absolute;
+	left: 212px;
+	top: 1653px;
+	overflow: visible;
+	width: 288px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#ID08h36___09_06_2017_por_Ver_n {
+	position: absolute;
+	left: 212px;
+	top: 1701px;
+	overflow: visible;
+	width: 300px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#Farm_cia__03 {
+	position: absolute;
+	left: 996px;
+	top: 1605px;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#Farm_cia_02 {
+	position: absolute;
+	left: 1000px;
+	top: 1653px;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#Farm_cia_01 {
+	position: absolute;
+	left: 1002px;
+	top: 1701px;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+#Grupo_2814 {
+	position: absolute;
+	width: 122.29px;
+	height: 23px;
+	left: 961px;
+	top: 969px;
+	overflow: visible;
+}
+#Ret_ngulo_1636 {
+	filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.239));
+}
+.Ret_ngulo_1636 {
+	position: absolute;
+	overflow: visible;
+	width: 128.29px;
+	height: 29px;
+	left: 0px;
+	top: 0px;
+}
+#SALVAR {
+	position: absolute;
+	left: 42.427px;
+	top: 4.636px;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+#Navbar_BG {
+	filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.039));
+}
+.Navbar_BG {
+	position: absolute;
+	overflow: visible;
+	width: 1298px;
+	height: 88px;
+	left: 0px;
+	top: 0px;
+}
+#Search_Input {
+	position: absolute;
+	width: 79px;
+	height: 17px;
+	left: 86px;
+	top: 27px;
+	overflow: visible;
+}
+#Pesquisar {
+	opacity: 0.437;
+	position: absolute;
+	left: 26px;
+	top: 0px;
+	overflow: visible;
+	width: 54px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(193,193,193,1);
+}
+#icon_search {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.icon_search_A23_Path_755 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Avatar {
+	position: absolute;
+	overflow: visible;
+	width: 38px;
+	height: 38px;
+	left: 1222px;
+	top: 16px;
+}
+#small_down {
+	position: absolute;
+	width: 11px;
+	height: 7px;
+	left: 1200px;
+	top: 32px;
+	overflow: visible;
+}
+.Caminho_26 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 11px;
+	height: 7px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Divider {
+	position: absolute;
+	overflow: visible;
+	width: 1px;
+	height: 28px;
+	left: 1091px;
+	top: 21px;
+}
+.Ret_ngulo_1605 {
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	height: 33px;
+	left: 602px;
+	top: 13px;
+}
+#Logo {
+	position: absolute;
+	left: 622px;
+	top: 17px;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#Username {
+	position: absolute;
+	left: 1100px;
+	top: 27px;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(77,79,92,1);
+}
+#Acompanhamentos {
+	position: absolute;
+	left: 572px;
+	top: 265px;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#Geral {
+	position: absolute;
+	left: 470px;
+	top: 265px;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(45,154,227,1);
+}
+#Associados {
+	position: absolute;
+	left: 750px;
+	top: 265px;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(45,154,227,1);
+}
+#Pacientes {
+	position: absolute;
+	left: 184px;
+	top: 131px;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	line-height: 23px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Realist;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(67,66,93,1);
+}
+.Sidebar_BG {
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	height: 800px;
+	left: 0px;
+	top: 0px;
+}
+#Grupo_2705 {
+	position: absolute;
+	width: 66px;
+	height: 53px;
+	left: 0px;
+	top: 80px;
+	overflow: visible;
+}
+#BG {
+	opacity: 0.157;
+}
+.BG {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 53px;
+	left: 3px;
+	top: 0px;
+}
+#Vertical_Line {
+	opacity: 0.702;
+}
+.Vertical_Line {
+	position: absolute;
+	overflow: visible;
+	width: 3px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#Componente_1___16 {
+	position: absolute;
+	width: 20.661px;
+	height: 322px;
+	left: 23px;
+	top: 98px;
+	overflow: visible;
+}
+#gear_outlined_symbol {
+	position: absolute;
+	width: 14.35px;
+	height: 14.351px;
+	left: 3px;
+	top: 259px;
+	overflow: visible;
+}
+#_x31__13_ {
+	position: absolute;
+	width: 14.35px;
+	height: 14.351px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Grupo_2700 {
+	position: absolute;
+	width: 14.35px;
+	height: 14.351px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Caminho_1866 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 14.35px;
+	height: 14.351px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#user_outline_male_symbol_of_in {
+	position: absolute;
+	width: 11.266px;
+	height: 16.387px;
+	left: 4px;
+	top: 202px;
+	overflow: visible;
+}
+#_x36__17_ {
+	position: absolute;
+	width: 11.266px;
+	height: 16.387px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Grupo_2701 {
+	position: absolute;
+	width: 11.266px;
+	height: 16.387px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Caminho_1867 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 11.266px;
+	height: 16.387px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#window_outline {
+	position: absolute;
+	width: 16.297px;
+	height: 16.297px;
+	left: 2px;
+	top: 0px;
+	overflow: visible;
+}
+#_x34__10_ {
+	position: absolute;
+	width: 16.297px;
+	height: 16.297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Grupo_2703 {
+	position: absolute;
+	width: 16.297px;
+	height: 16.297px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Caminho_1869 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 16.297px;
+	height: 16.297px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Grupo_2785 {
+	position: absolute;
+	width: 18.661px;
+	height: 16.322px;
+	left: 2px;
+	top: 151px;
+	overflow: visible;
+}
+.Interse__o_5_A23_BooleanGroup_39 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 19.174px;
+	height: 16.87px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#STATISTICS_131994911363180250_ {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 4px;
+	top: 308px;
+	overflow: visible;
+}
+.Caminho_2039 {
+	overflow: visible;
+	position: absolute;
+	top: 9.925px;
+	left: 0px;
+	width: 2.75px;
+	height: 4.075px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_2040 {
+	overflow: visible;
+	position: absolute;
+	top: 4.095px;
+	left: 3.75px;
+	width: 2.75px;
+	height: 9.905px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_2041 {
+	overflow: visible;
+	position: absolute;
+	top: 7.086px;
+	left: 7.5px;
+	width: 2.75px;
+	height: 6.914px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Caminho_2042 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 11.25px;
+	width: 2.75px;
+	height: 14px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Layer_x0020_1 {
+	position: absolute;
+	width: 18.216px;
+	height: 16.274px;
+	left: 0px;
+	top: 46.667px;
+	overflow: visible;
+}
+.Caminho_2043 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 18.216px;
+	height: 16.274px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Layer_x0020_1_A23_Group_826 {
+	position: absolute;
+	width: 19.32px;
+	height: 17.698px;
+	left: 1.34px;
+	top: 98.636px;
+	overflow: visible;
+}
+.Caminho_2044 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 19.32px;
+	height: 17.698px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Print_this_page {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 924px;
+	top: 1527px;
+	overflow: visible;
+}
+.path {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ic_print {
+	opacity: 0.54;
+}
+.ic_print {
+	overflow: visible;
+	position: absolute;
+	top: 3px;
+	left: 2px;
+	width: 20px;
+	height: 18px;
+	transform: matrix(1,0,0,1,0,0);
+}

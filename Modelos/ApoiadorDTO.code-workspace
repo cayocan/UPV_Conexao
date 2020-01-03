@@ -1,0 +1,54 @@
+{
+    "id": 63,
+    "pessoa": {
+        "id": 62,
+        "nome": "apoiador4",
+        "cpf": "5555",
+        "rg": "217890649",
+        "dataNascimento": "31/03/1994",
+        "sexo": "M",
+        "nomeMae": "Anna Luiza",
+        "nomePai": "jose Evanildo",
+        "profissao": "GD",
+        "situacaoDiagnostico": true,
+        "dadosCadastrais": {
+        "id": 26,
+        "cep": "21041000",
+        "endereco": "av.bruxelas 83",
+        "complemento": "apt.201 fundos",
+        "cidade": "rio de janeiro",
+        "estado": "RJ",
+        "telefone": "3868-5053",
+        "telefone2": "97551-4832",
+        "email": "apoiador4",
+        "email2": "mfa2",
+        "facebookAcount": "face",
+        "instagramAcount": "insta",
+        "twitterAcount": "twitter"
+        },
+        "dateRegister": "05/11/2019",
+        "lastUpdate": null,
+        "enable": true
+    },
+    "tipoDoador": "apoiador4",
+    "funcId": 27,
+    "dataCadastrado": "05/11/2019"
+}
+ApoiadorContato
+{
+    "id": 77,
+    "apoiaId": 63,
+    "dataContato": "05/11/2019",
+    "tema": "tema",
+    "obs": "obs"
+}
+Doacao
+{
+    "id": 81,
+    "valor": 1000,
+    "periodicidade": "mensal",
+    "forma": "cartao",
+    "apoiaId": 63
+}
+
+  

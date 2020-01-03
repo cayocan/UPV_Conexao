@@ -1,0 +1,2015 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Pesquisa - Pacientes</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Pesquisa - Pacientes;
+		--web-view-id: Pesquisa___Pacientes;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Pesquisa___Pacientes;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	#Pesquisa___Pacientes {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1280px;
+		height: 2468px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		--web-view-name: Pesquisa - Pacientes;
+		--web-view-id: Pesquisa___Pacientes;
+		--web-enable-deep-linking: true;
+	}
+	#Pacientes {
+		position: absolute;
+		left: 184px;
+		top: 132px;
+		overflow: visible;
+		width: 60px;
+		white-space: nowrap;
+		line-height: 23px;
+		margin-top: -4.5px;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(67,66,93,1);
+	}
+	#Grupo_2659 {
+		position: absolute;
+		width: 38.267px;
+		height: 33.471px;
+		left: 270.395px;
+		top: 125px;
+		overflow: visible;
+	}
+	.Interse__o_5 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 38.267px;
+		height: 33.472px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Filia__o__19_12_2020 {
+		position: absolute;
+		left: 235px;
+		top: 355px;
+		overflow: visible;
+		width: 148px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Cadastro_no_Integra_FC__19_12_ {
+		position: absolute;
+		left: 420.113px;
+		top: 354.422px;
+		overflow: visible;
+		width: 264px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Como_chegou_at__a_associa__o__ {
+		position: absolute;
+		left: 235px;
+		top: 434px;
+		overflow: visible;
+		width: 499px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Laudo__ {
+		position: absolute;
+		left: 235px;
+		top: 480px;
+		overflow: visible;
+		width: 56px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Situa__o_atual_do_diagn_stico_ {
+		position: absolute;
+		left: 749px;
+		top: 434px;
+		overflow: visible;
+		width: 317px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Heterozigoto_ {
+		position: absolute;
+		left: 967px;
+		top: 1704px;
+		overflow: visible;
+		width: 103px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Respons_vel_pelo_Cadastro__Ver {
+		position: absolute;
+		left: 720px;
+		top: 354.532px;
+		overflow: visible;
+		width: 329px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Nome_da_m_e__Ekaterina_da_Silv {
+		position: absolute;
+		left: 235px;
+		top: 708px;
+		overflow: visible;
+		width: 242px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Nome_do_Pai__Evangivaldo_da_Si {
+		position: absolute;
+		left: 235px;
+		top: 748px;
+		overflow: visible;
+		width: 254px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#CEP__98654_789 {
+		position: absolute;
+		left: 235px;
+		top: 788px;
+		overflow: visible;
+		width: 119px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Telefone___85__3456_7895 {
+		position: absolute;
+		left: 235px;
+		top: 868px;
+		overflow: visible;
+		width: 183px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Celular___85__987456_32145 {
+		position: absolute;
+		left: 235px;
+		top: 908px;
+		overflow: visible;
+		width: 194px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Email__aldinho_gmail_com {
+		position: absolute;
+		left: 235px;
+		top: 948px;
+		overflow: visible;
+		width: 193px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Facebook___facebook_com_evangi {
+		position: absolute;
+		left: 235px;
+		top: 988px;
+		overflow: visible;
+		width: 351px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Instagram___aldinho01 {
+		position: absolute;
+		left: 235px;
+		top: 1028px;
+		overflow: visible;
+		width: 167px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Contato_de_Emerg_ncia__85_9988 {
+		position: absolute;
+		left: 619px;
+		top: 908px;
+		overflow: visible;
+		width: 290px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Falar_com__Betina {
+		position: absolute;
+		left: 929px;
+		top: 908px;
+		overflow: visible;
+		width: 130px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Endere_o__Rua_das_flores___345 {
+		position: absolute;
+		left: 235px;
+		top: 828px;
+		overflow: visible;
+		width: 425px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Cidade__Ub_ {
+		position: absolute;
+		left: 588px;
+		top: 788px;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Cidade__Minas_Gerais {
+		position: absolute;
+		left: 904px;
+		top: 788px;
+		overflow: visible;
+		width: 155px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#CPF__789685326_45 {
+		position: absolute;
+		left: 235px;
+		top: 628px;
+		overflow: visible;
+		width: 145px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#N_mero_do_CNS__456879165649 {
+		position: absolute;
+		left: 235px;
+		top: 668px;
+		overflow: visible;
+		width: 238px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#RG__65862456_76 {
+		position: absolute;
+		left: 448px;
+		top: 628px;
+		overflow: visible;
+		width: 127px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Data_de_nascimento__29_02_1500 {
+		position: absolute;
+		left: 631px;
+		top: 628px;
+		overflow: visible;
+		width: 247px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Sexo__Masculino {
+		position: absolute;
+		left: 641px;
+		top: 668px;
+		overflow: visible;
+		width: 120px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Estado_Civil__Vi_vo {
+		position: absolute;
+		left: 923px;
+		top: 668px;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Idade__519_anos {
+		position: absolute;
+		left: 945px;
+		top: 628.532px;
+		overflow: visible;
+		width: 114px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Grupo_2863 {
+		position: absolute;
+		width: 187px;
+		height: 38px;
+		left: 546px;
+		top: 267px;
+		overflow: visible;
+	}
+	.Ret_ngulo_9 {
+		position: absolute;
+		overflow: visible;
+		width: 187px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+	}
+	#Acompanhamentos {
+		position: absolute;
+		left: 26px;
+		top: 10px;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(45,154,227,1);
+	}
+	#Grupo_2864 {
+		position: absolute;
+		width: 112px;
+		height: 38px;
+		left: 433px;
+		top: 267px;
+		overflow: visible;
+	}
+	.Ret_ngulo_9_A6_Rectangle_133 {
+		position: absolute;
+		overflow: visible;
+		width: 112px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+	}
+	#Geral {
+		position: absolute;
+		left: 37px;
+		top: 10px;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	.Caminho_2002 {
+		overflow: visible;
+		position: absolute;
+		top: 267px;
+		left: 734px;
+		width: 113px;
+		height: 38px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Associados {
+		position: absolute;
+		left: 750px;
+		top: 277px;
+		overflow: visible;
+		width: 77px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(45,154,227,1);
+	}
+	#Grupo_2831 {
+		position: absolute;
+		width: 122.29px;
+		height: 23px;
+		left: 374px;
+		top: 177px;
+		overflow: visible;
+	}
+	#Ret_ngulo_1636 {
+		filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.239));
+	}
+	.Ret_ngulo_1636 {
+		position: absolute;
+		overflow: visible;
+		width: 128.29px;
+		height: 29px;
+		left: 0px;
+		top: 0px;
+	}
+	#EDITAR {
+		position: absolute;
+		left: 43.427px;
+		top: 4.636px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#VOLTAR {
+		position: absolute;
+		left: 184px;
+		top: 183px;
+		overflow: visible;
+		width: 41px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(128,128,128,1);
+	}
+	#Grupo_2832 {
+		position: absolute;
+		width: 122.29px;
+		height: 23px;
+		left: 242px;
+		top: 177px;
+		overflow: visible;
+	}
+	#Grupo_2830 {
+		position: absolute;
+		width: 122.29px;
+		height: 23px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ret_ngulo_1636_A6_Rectangle_135 {
+		filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.239));
+	}
+	.Ret_ngulo_1636_A6_Rectangle_135 {
+		position: absolute;
+		overflow: visible;
+		width: 128.29px;
+		height: 29px;
+		left: 0px;
+		top: 0px;
+	}
+	#NOVO_PACIENTE {
+		position: absolute;
+		left: 21.427px;
+		top: 4.636px;
+		overflow: visible;
+		width: 79px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	.Linha_6 {
+		overflow: visible;
+		position: absolute;
+		top: 384.5px;
+		left: 232.5px;
+		width: 818px;
+		height: 1px;
+	}
+	.Linha_7 {
+		overflow: visible;
+		position: absolute;
+		top: 578.5px;
+		left: 232.5px;
+		width: 818px;
+		height: 1px;
+	}
+	.Linha_8 {
+		overflow: visible;
+		position: absolute;
+		top: 1096.5px;
+		left: 232.5px;
+		width: 818px;
+		height: 1px;
+	}
+	.Linha_9 {
+		overflow: visible;
+		position: absolute;
+		top: 1334.5px;
+		left: 232.5px;
+		width: 818px;
+		height: 1px;
+	}
+	.Linha_10 {
+		overflow: visible;
+		position: absolute;
+		top: 2207.5px;
+		left: 232.5px;
+		width: 818px;
+		height: 1px;
+	}
+	#Lorem_ipsum_dolor_sit_amet__co {
+		position: absolute;
+		left: 235px;
+		top: 479px;
+		overflow: hidden;
+		width: 758px;
+		height: 51px;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Mora_com_os_pais_ou_respons_ve {
+		position: absolute;
+		left: 235px;
+		top: 1146px;
+		overflow: visible;
+		width: 297px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Com_quem_mora__Sozinho {
+		position: absolute;
+		left: 633px;
+		top: 1146px;
+		overflow: visible;
+		width: 196px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Renda_familiar__Entre_5000_1_e {
+		position: absolute;
+		left: 235px;
+		top: 1186px;
+		overflow: visible;
+		width: 294px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Recebe_benef_cios__Sim {
+		position: absolute;
+		left: 235px;
+		top: 1226px;
+		overflow: visible;
+		width: 175px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Data_do_diagn_stico__12_05_202 {
+		position: absolute;
+		left: 235px;
+		top: 1384px;
+		overflow: visible;
+		width: 246px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Centro_de_tratamento_atual__Or {
+		position: absolute;
+		left: 235px;
+		top: 1424px;
+		overflow: visible;
+		width: 429px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#M_dico_Respons_vel__Maecenas_O {
+		position: absolute;
+		left: 235px;
+		top: 1464px;
+		overflow: visible;
+		width: 354px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Teste_do_pezinho__14_05_2020 {
+		position: absolute;
+		left: 235px;
+		top: 1544px;
+		overflow: visible;
+		width: 223px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Local_do_teste_do_Suor__Finibu {
+		position: absolute;
+		left: 235px;
+		top: 1624px;
+		overflow: visible;
+		width: 327px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Resultado_do_teste_do_Suor__65 {
+		position: absolute;
+		left: 235px;
+		top: 1664px;
+		overflow: visible;
+		width: 289px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Tem_exame_gen_tico__sim {
+		position: absolute;
+		left: 235px;
+		top: 1704px;
+		overflow: visible;
+		width: 193px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Muta__o1__Blandit__Egestas__Tu {
+		position: absolute;
+		left: 235px;
+		top: 1744px;
+		overflow: visible;
+		width: 249px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Muta__o2__Pellentesque__Habita {
+		position: absolute;
+		left: 235px;
+		top: 1784px;
+		overflow: visible;
+		width: 299px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Manifesta__es_cl_nicas_comuns_ {
+		position: absolute;
+		left: 235px;
+		top: 1824px;
+		overflow: visible;
+		width: 240px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#J__fez_transplante__Sim_ {
+		position: absolute;
+		left: 235px;
+		top: 2019px;
+		overflow: visible;
+		width: 178px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Data_do__bito__ {
+		position: absolute;
+		left: 233px;
+		top: 2256px;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Motivo_do__bito__ {
+		position: absolute;
+		left: 233px;
+		top: 2296px;
+		overflow: visible;
+		width: 124px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#_rg_o_transplantado__Pulm_o__c {
+		position: absolute;
+		left: 235px;
+		top: 2059px;
+		overflow: visible;
+		width: 284px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Nome_do_m_dico_que_realizou_o_ {
+		position: absolute;
+		left: 235px;
+		top: 2099px;
+		overflow: visible;
+		width: 450px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Hospital_em_que_o_transplante_ {
+		position: absolute;
+		left: 235px;
+		top: 2139px;
+		overflow: visible;
+		width: 508px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Data_de_transplante__12_08_179 {
+		position: absolute;
+		left: 526px;
+		top: 2019px;
+		overflow: visible;
+		width: 245px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Data_da_realiza__o_do_teste_ge {
+		position: absolute;
+		left: 526px;
+		top: 1704px;
+		overflow: visible;
+		width: 371px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Teste_do_suor__25_08_2020 {
+		position: absolute;
+		left: 235px;
+		top: 1584px;
+		overflow: visible;
+		width: 199px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Especialidade__Pneumologista {
+		position: absolute;
+		left: 235px;
+		top: 1504px;
+		overflow: visible;
+		width: 221px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Quais__Loas__Aux_lio_doen_a {
+		position: absolute;
+		left: 235px;
+		top: 1266px;
+		overflow: visible;
+		width: 203px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Renda_per_capita___Entre_5000_ {
+		position: absolute;
+		left: 621px;
+		top: 1186px;
+		overflow: visible;
+		width: 320px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Profiss_o__Cuteleiro {
+		position: absolute;
+		left: 924px;
+		top: 1145.643px;
+		overflow: visible;
+		width: 143px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Aliquam_vitae_purus_eget_nisi_ {
+		position: absolute;
+		left: 494px;
+		top: 1825px;
+		overflow: hidden;
+		width: 571px;
+		height: 174px;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
+	#Grupo_2877 {
+		position: absolute;
+		width: 122.29px;
+		height: 23px;
+		left: 908px;
+		top: 2376px;
+		overflow: visible;
+	}
+	#Ret_ngulo_1636_A6_Rectangle_136 {
+		filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.239));
+	}
+	.Ret_ngulo_1636_A6_Rectangle_136 {
+		position: absolute;
+		overflow: visible;
+		width: 128.29px;
+		height: 29px;
+		left: 0px;
+		top: 0px;
+	}
+	#EDITAR_A6_Text_307 {
+		position: absolute;
+		left: 43.427px;
+		top: 4.636px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#VOLTAR_A6_Text_308 {
+		position: absolute;
+		left: 718px;
+		top: 2382px;
+		overflow: visible;
+		width: 41px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(128,128,128,1);
+	}
+	#Grupo_2878 {
+		position: absolute;
+		width: 122.29px;
+		height: 23px;
+		left: 776px;
+		top: 2376px;
+		overflow: visible;
+	}
+	#Grupo_2830_A6_Group_210 {
+		position: absolute;
+		width: 122.29px;
+		height: 23px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ret_ngulo_1636_A6_Rectangle_137 {
+		filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.239));
+	}
+	.Ret_ngulo_1636_A6_Rectangle_137 {
+		position: absolute;
+		overflow: visible;
+		width: 128.29px;
+		height: 29px;
+		left: 0px;
+		top: 0px;
+	}
+	#NOVO_PACIENTE_A6_Text_309 {
+		position: absolute;
+		left: 21.427px;
+		top: 4.636px;
+		overflow: visible;
+		width: 79px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Navbar_BG {
+		filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.039));
+	}
+	.Navbar_BG {
+		position: absolute;
+		overflow: visible;
+		width: 1298px;
+		height: 88px;
+		left: 0px;
+		top: 0px;
+	}
+	#Search_Input {
+		position: absolute;
+		width: 79px;
+		height: 17px;
+		left: 86px;
+		top: 27px;
+		overflow: visible;
+	}
+	#Pesquisar {
+		opacity: 0.437;
+		position: absolute;
+		left: 26px;
+		top: 0px;
+		overflow: visible;
+		width: 54px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(193,193,193,1);
+	}
+	#icon_search {
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.icon_search_A6_Path_213 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 16px;
+		height: 16px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Username {
+		position: absolute;
+		left: 1100px;
+		top: 28px;
+		overflow: visible;
+		width: 92px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(77,79,92,1);
+	}
+	.Avatar {
+		position: absolute;
+		overflow: visible;
+		width: 38px;
+		height: 38px;
+		left: 1222px;
+		top: 16px;
+	}
+	#small_down {
+		position: absolute;
+		width: 11px;
+		height: 7px;
+		left: 1200px;
+		top: 32px;
+		overflow: visible;
+	}
+	.Caminho_26 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 11px;
+		height: 7px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Divider {
+		position: absolute;
+		overflow: visible;
+		width: 1px;
+		height: 28px;
+		left: 1091px;
+		top: 21px;
+	}
+	.Ret_ngulo_1605 {
+		position: absolute;
+		overflow: visible;
+		width: 77px;
+		height: 33px;
+		left: 602px;
+		top: 13px;
+	}
+	#Logo {
+		position: absolute;
+		left: 622px;
+		top: 17px;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#Grupo_2905 {
+		position: absolute;
+		width: 899px;
+		height: 29px;
+		left: 184px;
+		top: 224px;
+		overflow: visible;
+	}
+	.Ret_ngulo_1638 {
+		position: absolute;
+		overflow: visible;
+		width: 899px;
+		height: 29px;
+		left: 0px;
+		top: 0px;
+	}
+	#Evangivaldo_da_Silva_Filho {
+		position: absolute;
+		left: 12px;
+		top: 4px;
+		overflow: visible;
+		width: 189px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,255,255,1);
+	}
+	#SPF000461 {
+		position: absolute;
+		left: 807px;
+		top: 5px;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Realist;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,255,255,1);
+	}
+	.Sidebar_BG {
+		position: absolute;
+		overflow: visible;
+		width: 66px;
+		height: 800px;
+		left: 0px;
+		top: 0px;
+	}
+	#Grupo_2705 {
+		position: absolute;
+		width: 66px;
+		height: 53px;
+		left: 0px;
+		top: 80px;
+		overflow: visible;
+	}
+	#BG {
+		opacity: 0.157;
+	}
+	.BG {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 53px;
+		left: 3px;
+		top: 0px;
+	}
+	#Vertical_Line {
+		opacity: 0.702;
+	}
+	.Vertical_Line {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 53px;
+		left: 0px;
+		top: 0px;
+	}
+	#Componente_1___11 {
+		position: absolute;
+		width: 20.661px;
+		height: 322px;
+		left: 23px;
+		top: 98px;
+		overflow: visible;
+	}
+	#gear_outlined_symbol {
+		position: absolute;
+		width: 14.35px;
+		height: 14.351px;
+		left: 3px;
+		top: 259px;
+		overflow: visible;
+	}
+	#_x31__13_ {
+		position: absolute;
+		width: 14.35px;
+		height: 14.351px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Grupo_2700 {
+		position: absolute;
+		width: 14.35px;
+		height: 14.351px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Caminho_1866 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 14.351px;
+		height: 14.351px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#user_outline_male_symbol_of_in {
+		position: absolute;
+		width: 11.266px;
+		height: 16.387px;
+		left: 4px;
+		top: 202px;
+		overflow: visible;
+	}
+	#_x36__17_ {
+		position: absolute;
+		width: 11.266px;
+		height: 16.387px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Grupo_2701 {
+		position: absolute;
+		width: 11.266px;
+		height: 16.387px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Caminho_1867 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 11.266px;
+		height: 16.387px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#window_outline {
+		position: absolute;
+		width: 16.297px;
+		height: 16.297px;
+		left: 2px;
+		top: 0px;
+		overflow: visible;
+	}
+	#_x34__10_ {
+		position: absolute;
+		width: 16.297px;
+		height: 16.297px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Grupo_2703 {
+		position: absolute;
+		width: 16.297px;
+		height: 16.297px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Caminho_1869 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 16.297px;
+		height: 16.297px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Grupo_2785 {
+		position: absolute;
+		width: 18.661px;
+		height: 16.322px;
+		left: 2px;
+		top: 151px;
+		overflow: visible;
+	}
+	.Interse__o_5_A6_BooleanGroup_12 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 19.174px;
+		height: 16.87px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#STATISTICS_131994911363180250_ {
+		position: absolute;
+		width: 14px;
+		height: 14px;
+		left: 4px;
+		top: 308px;
+		overflow: visible;
+	}
+	.Caminho_2039 {
+		overflow: visible;
+		position: absolute;
+		top: 9.925px;
+		left: 0px;
+		width: 2.75px;
+		height: 4.075px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Caminho_2040 {
+		overflow: visible;
+		position: absolute;
+		top: 4.095px;
+		left: 3.75px;
+		width: 2.75px;
+		height: 9.905px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Caminho_2041 {
+		overflow: visible;
+		position: absolute;
+		top: 7.086px;
+		left: 7.5px;
+		width: 2.75px;
+		height: 6.914px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Caminho_2042 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 11.25px;
+		width: 2.75px;
+		height: 14px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Layer_x0020_1 {
+		position: absolute;
+		width: 18.216px;
+		height: 16.274px;
+		left: 0px;
+		top: 46.667px;
+		overflow: visible;
+	}
+	.Caminho_2043 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 18.216px;
+		height: 16.274px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Layer_x0020_1_A6_Group_228 {
+		position: absolute;
+		width: 19.32px;
+		height: 17.698px;
+		left: 1.34px;
+		top: 98.636px;
+		overflow: visible;
+	}
+	.Caminho_2044 {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 19.32px;
+		height: 17.698px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Print_this_page {
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		left: 1040px;
+		top: 2377px;
+		overflow: visible;
+	}
+	.path {
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 24px;
+		height: 24px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ic_print {
+		opacity: 0.54;
+	}
+	.ic_print {
+		overflow: visible;
+		position: absolute;
+		top: 3px;
+		left: 2px;
+		width: 20px;
+		height: 18px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+</style>
+</head>
+<body>
+<div id="Pesquisa___Pacientes">
+	<div id="Pacientes">
+		<span>Pacientes</span>
+	</div>
+	<div id="Grupo_2659">
+		<svg class="Interse__o_5" viewBox="0 0 38.267 33.471">
+			<linearGradient spreadMethod="pad" id="LinearGradientFill1" x1="1.12" x2="-0.258" y1="1.21" y2="-0.354">
+				<stop offset="0" stop-color="#84f1fd" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#64acfa" stop-opacity="1"></stop>
+			</linearGradient>
+			<path fill="url(#LinearGradientFill1)" id="Interse__o_5" d="M 18.39420127868652 32.95260238647461 C 17.19810104370117 29.71530151367188 13.86540031433105 27.26730155944824 10.3410005569458 24.66810035705566 C 5.508900165557861 21.10410118103027 0.5103000402450562 17.42040061950684 0.03150000050663948 11.1294002532959 C -0.3986999988555908 5.476500034332275 3.643200159072876 1.410300016403198 7.853400230407715 0.3176999986171722 C 11.31389999389648 -0.5913000106811523 16.18560028076172 0.261900007724762 19.17539978027344 5.325300216674805 C 22.43610000610352 0.2384999990463257 27.18810081481934 -0.6227999925613403 30.72060012817383 0.3582000136375427 C 35.44829940795898 1.665899991989136 38.54249954223633 6.083100318908691 38.24729919433594 11.10599994659424 C 37.88820266723633 17.34119987487793 32.80950164794922 21.10410118103027 27.90630149841309 24.74820137023926 C 24.39000129699707 27.36359977722168 21.07260131835938 29.82690048217773 19.88459968566895 32.95260238647461 C 19.76490020751953 33.26309967041016 19.47060012817383 33.47100067138672 19.13580131530762 33.47100067138672 C 18.80010032653809 33.47100067138672 18.50580024719238 33.26309967041016 18.39420127868652 32.95260238647461 Z M 8.252099990844727 1.85670006275177 C 4.799700260162354 2.757600069046021 1.243800044059753 6.003000259399414 1.626300096511841 11.00250053405762 C 2.048400163650513 16.56719970703125 6.744600296020508 20.02770042419434 11.28960037231445 23.37660026550293 C 14.46300029754639 25.7130012512207 17.48520088195801 27.94500160217285 19.15110015869141 30.83130073547363 C 20.80980110168457 28.03320121765137 23.80770111083984 25.80840110778809 26.95680046081543 23.47200012207031 C 31.57380104064941 20.04389953613281 36.34199905395508 16.50419998168945 36.66060256958008 11.01780033111572 C 36.94770050048828 6.034500122070313 33.55920028686523 2.798099994659424 30.29040145874023 1.897199988365173 C 27.07649993896484 1.011600017547607 22.652099609375 1.976400017738342 19.84500122070313 7.34220027923584 C 19.70190048217773 7.61400032043457 19.42200088500977 7.773300170898438 19.11960029602051 7.773300170898438 C 18.8163013458252 7.765200138092041 18.54540061950684 7.589700222015381 18.41760063171387 7.310700416564941 C 16.45650100708008 3.077100038528442 13.26690006256104 1.585800051689148 10.38870048522949 1.585800051689148 C 9.67140007019043 1.585800051689148 8.953200340270996 1.673099994659424 8.252099990844727 1.85670006275177 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="Filia__o__19_12_2020">
+		<span>Filiação:</span><span style="font-style:normal;font-weight:normal;"> 19/12/2020</span>
+	</div>
+	<div id="Cadastro_no_Integra_FC__19_12_">
+		<span>Cadastro no Integra FC:</span><span style="font-style:normal;font-weight:normal;"> 19/12/2020</span>
+	</div>
+	<div id="Como_chegou_at__a_associa__o__">
+		<span>Como chegou até a associação: </span><span style="font-style:normal;font-weight:normal;">Encaminhamento Unidos pela Vida</span><span> </span>
+	</div>
+	<div id="Laudo__">
+		<span>Laudo: </span>
+	</div>
+	<div id="Situa__o_atual_do_diagn_stico_">
+		<span>Situação atual do diagnóstico:</span><span style="font-style:normal;font-weight:normal;"> </span><span style="font-style:normal;font-weight:normal;color:rgba(55,185,0,1);">Confirmado</span>
+	</div>
+	<div id="Heterozigoto_">
+		<span>Heterozigoto </span>
+	</div>
+	<div id="Respons_vel_pelo_Cadastro__Ver">
+		<span>Responsável pelo Cadastro:</span><span style="font-style:normal;font-weight:normal;"> Verônica Stasiak</span>
+	</div>
+	<div id="Nome_da_m_e__Ekaterina_da_Silv">
+		<span>Nome da mãe:</span><span style="font-style:normal;font-weight:normal;"> Ekaterina da Silva</span>
+	</div>
+	<div id="Nome_do_Pai__Evangivaldo_da_Si">
+		<span>Nome do Pai:</span><span style="font-style:normal;font-weight:normal;"> Evangivaldo da Silva</span>
+	</div>
+	<div id="CEP__98654_789">
+		<span>CEP:</span><span style="font-style:normal;font-weight:normal;"> 98654-789</span>
+	</div>
+	<div id="Telefone___85__3456_7895">
+		<span>Telefone:</span><span style="font-style:normal;font-weight:normal;"> (85) 3456-7895</span>
+	</div>
+	<div id="Celular___85__987456_32145">
+		<span>Celular:</span><span style="font-style:normal;font-weight:normal;"> (85) 987456-32145</span>
+	</div>
+	<div id="Email__aldinho_gmail_com">
+		<span>Email:</span><span style="font-style:normal;font-weight:normal;"> aldinho@gmail.com</span>
+	</div>
+	<div id="Facebook___facebook_com_evangi">
+		<span>Facebook:</span><span style="font-style:normal;font-weight:normal;">  facebook.com/evangivaldo.silva.654 </span>
+	</div>
+	<div id="Instagram___aldinho01">
+		<span>Instagram:</span><span style="font-style:normal;font-weight:normal;"> @aldinho01</span>
+	</div>
+	<div id="Contato_de_Emerg_ncia__85_9988">
+		<span>Contato de Emergência:</span><span style="font-style:normal;font-weight:normal;"> 85 99887-4513</span>
+	</div>
+	<div id="Falar_com__Betina">
+		<span>Falar com:</span><span style="font-style:normal;font-weight:normal;"> Betina</span>
+	</div>
+	<div id="Endere_o__Rua_das_flores___345">
+		<span>Endereço:</span><span style="font-style:normal;font-weight:normal;"> Rua das flores - 345 - Praça do Carmelo - Centro</span>
+	</div>
+	<div id="Cidade__Ub_">
+		<span>Cidade:</span><span style="font-style:normal;font-weight:normal;"> Ubá</span>
+	</div>
+	<div id="Cidade__Minas_Gerais">
+		<span>Cidade:</span><span style="font-style:normal;font-weight:normal;"> Minas Gerais</span>
+	</div>
+	<div id="CPF__789685326_45">
+		<span>CPF:</span><span style="font-style:normal;font-weight:normal;"> 789685326-45</span>
+	</div>
+	<div id="N_mero_do_CNS__456879165649">
+		<span>Número do CNS:</span><span style="font-style:normal;font-weight:normal;"> 456879165649</span>
+	</div>
+	<div id="RG__65862456_76">
+		<span>RG:</span><span style="font-style:normal;font-weight:normal;"> 65862456-76</span>
+	</div>
+	<div id="Data_de_nascimento__29_02_1500">
+		<span>Data de nascimento:</span><span style="font-style:normal;font-weight:normal;"> 29/02/1500</span>
+	</div>
+	<div id="Sexo__Masculino">
+		<span>Sexo:</span><span style="font-style:normal;font-weight:normal;"> Masculino</span>
+	</div>
+	<div id="Estado_Civil__Vi_vo">
+		<span>Estado Civil:</span><span style="font-style:normal;font-weight:normal;"> Viúvo</span>
+	</div>
+	<div id="Idade__519_anos">
+		<span>Idade:</span><span style="font-style:normal;font-weight:normal;"> 519 anos</span>
+	</div>
+	<div id="Grupo_2863">
+		<svg class="Ret_ngulo_9">
+			<rect fill="rgba(255,255,255,1)" stroke="rgba(199,199,199,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Ret_ngulo_9" rx="0" ry="0" x="0" y="0" width="187" height="38">
+			</rect>
+		</svg>
+		<div id="Acompanhamentos">
+			<span>Acompanhamentos</span>
+		</div>
+	</div>
+	<div id="Grupo_2864">
+		<svg class="Ret_ngulo_9_A6_Rectangle_133">
+			<rect fill="rgba(45,154,227,1)" stroke="rgba(45,154,227,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Ret_ngulo_9_A6_Rectangle_133" rx="0" ry="0" x="0" y="0" width="112" height="38">
+			</rect>
+		</svg>
+		<div id="Geral">
+			<span>Geral</span>
+		</div>
+	</div>
+	<svg class="Caminho_2002" viewBox="0 0 113 38">
+		<path fill="rgba(255,255,255,1)" stroke="rgba(199,199,199,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Caminho_2002" d="M 0 0 L 113 0 L 113 38 L 0 38 L 0 0 Z">
+		</path>
+	</svg>
+	<div id="Associados">
+		<span>Associados</span>
+	</div>
+	<div id="Grupo_2831">
+		<svg class="Ret_ngulo_1636">
+			<rect fill="rgba(199,199,199,1)" id="Ret_ngulo_1636" rx="2" ry="2" x="0" y="0" width="122.29" height="23">
+			</rect>
+		</svg>
+		<div id="EDITAR">
+			<span>EDITAR</span>
+		</div>
+	</div>
+	<div id="VOLTAR">
+		<span>VOLTAR</span>
+	</div>
+	<div id="Grupo_2832">
+		<div id="Grupo_2830">
+			<svg class="Ret_ngulo_1636_A6_Rectangle_135">
+				<rect fill="rgba(30,161,8,1)" id="Ret_ngulo_1636_A6_Rectangle_135" rx="2" ry="2" x="0" y="0" width="122.29" height="23">
+				</rect>
+			</svg>
+			<div id="NOVO_PACIENTE">
+				<span>NOVO PACIENTE</span>
+			</div>
+		</div>
+	</div>
+	<svg class="Linha_6">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Linha_6" d="M 0 0 L 818 0">
+		</path>
+	</svg>
+	<svg class="Linha_7">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Linha_7" d="M 0 0 L 818 0">
+		</path>
+	</svg>
+	<svg class="Linha_8">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Linha_8" d="M 0 0 L 818 0">
+		</path>
+	</svg>
+	<svg class="Linha_9">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Linha_9" d="M 0 0 L 818 0">
+		</path>
+	</svg>
+	<svg class="Linha_10">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Linha_10" d="M 0 0 L 818 0">
+		</path>
+	</svg>
+	<div id="Lorem_ipsum_dolor_sit_amet__co">
+		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum leo eu velit semper, et convallis nulla sodales. Curabitur quis rutrum velit, in malesuada lorem.</span>
+	</div>
+	<div id="Mora_com_os_pais_ou_respons_ve">
+		<span>Mora com os pais ou responsáveis?</span><span style="font-style:normal;font-weight:normal;"> Não</span>
+	</div>
+	<div id="Com_quem_mora__Sozinho">
+		<span>Com quem mora?</span><span style="font-style:normal;font-weight:normal;"> Sozinho</span>
+	</div>
+	<div id="Renda_familiar__Entre_5000_1_e">
+		<span>Renda familiar:</span><span style="font-style:normal;font-weight:normal;"> Entre 5000,1 e 8000,00</span>
+	</div>
+	<div id="Recebe_benef_cios__Sim">
+		<span>Recebe benefícios?</span><span style="font-style:normal;font-weight:normal;"> Sim</span>
+	</div>
+	<div id="Data_do_diagn_stico__12_05_202">
+		<span>Data do diagnóstico:</span><span style="font-style:normal;font-weight:normal;"> 12/05/2020</span>
+	</div>
+	<div id="Centro_de_tratamento_atual__Or">
+		<span>Centro de tratamento atual: </span><span style="font-style:normal;font-weight:normal;">Orci varius natoque penatibus</span>
+	</div>
+	<div id="M_dico_Respons_vel__Maecenas_O">
+		<span>Médico Responsável: </span><span style="font-style:normal;font-weight:normal;">Maecenas Ornare Porttitor</span>
+	</div>
+	<div id="Teste_do_pezinho__14_05_2020">
+		<span>Teste do pezinho:</span><span style="font-style:normal;font-weight:normal;"> 14/05/2020</span>
+	</div>
+	<div id="Local_do_teste_do_Suor__Finibu">
+		<span>Local do teste do Suor:</span><span style="font-style:normal;font-weight:normal;"> Finibus Erat Pharetra</span>
+	</div>
+	<div id="Resultado_do_teste_do_Suor__65">
+		<span>Resultado do teste do Suor:</span><span style="font-style:normal;font-weight:normal;"> 65 mmol/l</span>
+	</div>
+	<div id="Tem_exame_gen_tico__sim">
+		<span>Tem exame genético?</span><span style="font-style:normal;font-weight:normal;"> sim</span>
+	</div>
+	<div id="Muta__o1__Blandit__Egestas__Tu">
+		<span>Mutação1:</span><span style="font-style:normal;font-weight:normal;"> Blandit, Egestas, Turpis</span>
+	</div>
+	<div id="Muta__o2__Pellentesque__Habita">
+		<span>Mutação2:</span><span style="font-style:normal;font-weight:normal;"> Pellentesque, Habitant, Morbi</span>
+	</div>
+	<div id="Manifesta__es_cl_nicas_comuns_">
+		<span>Manifestações clínicas comuns:</span><span style="font-style:normal;font-weight:normal;"> </span>
+	</div>
+	<div id="J__fez_transplante__Sim_">
+		<span>Já fez transplante? </span><span style="font-style:normal;font-weight:normal;">Sim </span>
+	</div>
+	<div id="Data_do__bito__">
+		<span>Data do Óbito: </span>
+	</div>
+	<div id="Motivo_do__bito__">
+		<span>Motivo do Óbito: </span>
+	</div>
+	<div id="_rg_o_transplantado__Pulm_o__c">
+		<span>Órgão transplantado: </span><span style="font-style:normal;font-weight:normal;">Pulmão, coração</span>
+	</div>
+	<div id="Nome_do_m_dico_que_realizou_o_">
+		<span>Nome do médico que realizou o transplante: </span><span style="font-style:normal;font-weight:normal;">Hans Chucrutte</span>
+	</div>
+	<div id="Hospital_em_que_o_transplante_">
+		<span>Hospital em que o transplante foi realizado: </span><span style="font-style:normal;font-weight:normal;">Etiam tempor urna vitae</span>
+	</div>
+	<div id="Data_de_transplante__12_08_179">
+		<span>Data de transplante? </span><span style="font-style:normal;font-weight:normal;">12/08/1795 </span>
+	</div>
+	<div id="Data_da_realiza__o_do_teste_ge">
+		<span>Data da realização do teste genético:</span><span style="font-style:normal;font-weight:normal;"> 06/03/2020</span>
+	</div>
+	<div id="Teste_do_suor__25_08_2020">
+		<span>Teste do suor:</span><span style="font-style:normal;font-weight:normal;"> 25/08/2020</span>
+	</div>
+	<div id="Especialidade__Pneumologista">
+		<span>Especialidade: </span><span style="font-style:normal;font-weight:normal;">Pneumologista</span>
+	</div>
+	<div id="Quais__Loas__Aux_lio_doen_a">
+		<span>Quais?</span><span style="font-style:normal;font-weight:normal;"> Loas, Auxílio doença</span>
+	</div>
+	<div id="Renda_per_capita___Entre_5000_">
+		<span>Renda per capita:</span><span style="font-style:normal;font-weight:normal;">  Entre 5000,1 e 8000,00 </span>
+	</div>
+	<div id="Profiss_o__Cuteleiro">
+		<span>Profissão:</span><span style="font-style:normal;font-weight:normal;"> Cuteleiro</span>
+	</div>
+	<div id="Aliquam_vitae_purus_eget_nisi_">
+		<span>Aliquam vitae purus eget nisi ornare ullamcorper in sed dui. Nam hendrerit ante nec vulputate dignissim. Fusce viverra nulla et ante tincidunt tempor. Ut elementum nisl sed risus posuere, pellentesque bibendum massa efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia dui eget congue congue. Nunc eu blandit tortor. Donec ullamcorper semper ipsum vel pretium. Nunc sodales eros purus, a mattis justo tincidunt nec. Morbi feugiat eu magna non interdum. Maecenas ornare porttitor venenatis. Donec finibus efficitur finibus.</span>
+	</div>
+	<div id="Grupo_2877">
+		<svg class="Ret_ngulo_1636_A6_Rectangle_136">
+			<rect fill="rgba(199,199,199,1)" id="Ret_ngulo_1636_A6_Rectangle_136" rx="2" ry="2" x="0" y="0" width="122.29" height="23">
+			</rect>
+		</svg>
+		<div id="EDITAR_A6_Text_307">
+			<span>EDITAR</span>
+		</div>
+	</div>
+	<div id="VOLTAR_A6_Text_308">
+		<span>VOLTAR</span>
+	</div>
+	<div id="Grupo_2878">
+		<div id="Grupo_2830_A6_Group_210">
+			<svg class="Ret_ngulo_1636_A6_Rectangle_137">
+				<rect fill="rgba(30,161,8,1)" id="Ret_ngulo_1636_A6_Rectangle_137" rx="2" ry="2" x="0" y="0" width="122.29" height="23">
+				</rect>
+			</svg>
+			<div id="NOVO_PACIENTE_A6_Text_309">
+				<span>NOVO PACIENTE</span>
+			</div>
+		</div>
+	</div>
+	<svg class="Navbar_BG">
+		<rect fill="rgba(255,255,255,1)" id="Navbar_BG" rx="0" ry="0" x="0" y="0" width="1280" height="70">
+		</rect>
+	</svg>
+	<div id="Search_Input">
+		<div id="Pesquisar">
+			<span>Pesquisar</span>
+		</div>
+		<div id="icon_search">
+			<svg class="icon_search_A6_Path_213" viewBox="0 0 16 16">
+				<path fill="rgba(188,188,203,1)" id="icon_search_A6_Path_213" d="M 12.69999980926514 11.22981357574463 C 13.59999942779541 10.03726673126221 14.09999942779541 8.645962715148926 14.09999942779541 7.055900573730469 C 14.10000038146973 3.180124044418335 11 0 7.099999904632568 0 C 3.199999809265137 0 0 3.180124044418335 0 7.055900096893311 C 0 10.93167686462402 3.200000047683716 14.11180019378662 7.099999904632568 14.11180019378662 C 8.699999809265137 14.11180019378662 10.19999980926514 13.61490631103516 11.29999923706055 12.72049617767334 L 14.29999923706055 15.70186328887939 C 14.49999904632568 15.90062046051025 14.79999923706055 16 14.99999904632568 16 C 15.19999885559082 16 15.49999904632568 15.90062046051025 15.69999885559082 15.70186328887939 C 16.09999847412109 15.30434799194336 16.09999847412109 14.70807456970215 15.69999885559082 14.31055927276611 L 12.69999980926514 11.22981357574463 Z M 7.099999904632568 12.0248441696167 C 4.300000190734863 12.0248441696167 2 9.838508605957031 2 7.055900096893311 C 2 4.273292064666748 4.300000190734863 1.987577557563782 7.099999904632568 1.987577557563782 C 9.899999618530273 1.987577557563782 12.19999980926514 4.273292064666748 12.19999980926514 7.055900096893311 C 12.19999980926514 9.838508605957031 9.899999618530273 12.0248441696167 7.099999904632568 12.0248441696167 Z">
+				</path>
+			</svg>
+		</div>
+	</div>
+	<div id="Username">
+		<span>Verônica Stasiak</span>
+	</div>
+	<svg class="Avatar">
+		<pattern elementId="Avatar_A6_Rectangle_140" id="Avatar_A6_Rectangle_140_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Avatar_A6_Rectangle_140_pattern.png" xlink:href="Avatar_A6_Rectangle_140_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#Avatar_A6_Rectangle_140_pattern)" id="Avatar" rx="19" ry="19" x="0" y="0" width="38" height="38">
+		</rect>
+	</svg>
+	<div id="small_down">
+		<svg class="Caminho_26" viewBox="2.6 4.6 11 7">
+			<path fill="rgba(164,175,183,1)" id="Caminho_26" d="M 8.09999942779541 11.60000038146973 L 2.599999666213989 6.041176319122314 L 4.02592658996582 4.599999904632568 L 8.09999942779541 8.717647552490234 L 12.17407512664795 4.599999904632568 L 13.59999942779541 6.041176319122314 L 8.09999942779541 11.60000038146973 Z">
+			</path>
+		</svg>
+	</div>
+	<svg class="Divider">
+		<rect fill="rgba(235,235,242,1)" id="Divider" rx="0" ry="0" x="0" y="0" width="1" height="28">
+		</rect>
+	</svg>
+	<svg class="Ret_ngulo_1605">
+		<rect fill="rgba(55,185,0,0.502)" id="Ret_ngulo_1605" rx="0" ry="0" x="0" y="0" width="77" height="33">
+		</rect>
+	</svg>
+	<div id="Logo">
+		<span>Logo</span>
+	</div>
+	<div id="Grupo_2905">
+		<svg class="Ret_ngulo_1638">
+			<rect fill="rgba(117,27,119,1)" id="Ret_ngulo_1638" rx="8" ry="8" x="0" y="0" width="899" height="29">
+			</rect>
+		</svg>
+		<div id="Evangivaldo_da_Silva_Filho">
+			<span>Evangivaldo da Silva Filho</span>
+		</div>
+		<div id="SPF000461">
+			<span>SPF000461</span>
+		</div>
+	</div>
+	<svg class="Sidebar_BG">
+		<rect fill="rgba(255,255,255,1)" id="Sidebar_BG" rx="0" ry="0" x="0" y="0" width="66" height="800">
+		</rect>
+	</svg>
+	<div id="Grupo_2705">
+		<svg class="BG">
+			<linearGradient spreadMethod="pad" id="LinearGradientFill2" x1="1.021" x2="-0.066" y1="0.5" y2="0.5">
+				<stop offset="0" stop-color="#f0f0f7" stop-opacity="1"></stop>
+				<stop offset="1" stop-color="#f8f8f8" stop-opacity="1"></stop>
+			</linearGradient>
+			<rect fill="url(#LinearGradientFill2)" id="BG" rx="0" ry="0" x="0" y="0" width="63" height="53">
+			</rect>
+		</svg>
+		<svg class="Vertical_Line">
+			<rect fill="rgba(141,168,244,1)" id="Vertical_Line" rx="0" ry="0" x="0" y="0" width="3" height="53">
+			</rect>
+		</svg>
+	</div>
+	<div id="Componente_1___11">
+		<div id="gear_outlined_symbol">
+			<div id="_x31__13_">
+				<div id="Grupo_2700">
+					<svg class="Caminho_1866" viewBox="0.005 0 14.35 14.351">
+						<path fill="rgba(165,164,191,1)" id="Caminho_1866" d="M 13.88084125518799 8.866825103759766 L 12.77010250091553 8.220077514648438 C 12.8322639465332 7.880455017089844 12.87341499328613 7.533679485321045 12.87341499328613 7.175345420837402 C 12.87341499328613 6.817550659179688 12.83275604248047 6.470259189605713 12.77010250091553 6.130613327026367 L 13.88084125518799 5.483866214752197 C 14.33479785919189 5.2198166847229 14.49026012420654 4.634785652160645 14.22813129425049 4.176983833312988 L 13.27956008911133 2.519949913024902 C 13.01741027832031 2.062171459197998 12.43716144561768 1.905748844146729 11.98320484161377 2.169798374176025 L 10.86097717285156 2.823228120803833 C 10.33672332763672 2.373094081878662 9.740671157836914 2.005239725112915 9.078144073486328 1.768929004669189 L 9.078144073486328 0.9567080736160278 C 9.078120231628418 0.4281398355960846 8.65335750579834 0 8.129549026489258 0 L 6.231891632080078 0 C 5.708083629608154 0 5.283296585083008 0.4286087453365326 5.283296585083008 0.9567080736160278 L 5.283296585083008 1.76848304271698 C 4.62030029296875 2.005262613296509 4.024271011352539 2.373140573501587 3.499501466751099 2.823251485824585 L 2.377272844314575 2.169821977615356 C 1.923316836357117 1.905772089958191 1.343068838119507 2.06219482421875 1.081387400627136 2.519972801208496 L 0.1323701143264771 4.177030563354492 C -0.1297802329063416 4.634339809417725 0.02570447325706482 5.219863414764404 0.47966068983078 5.483913421630859 L 1.590423107147217 6.130660057067871 C 1.528238534927368 6.470306396484375 1.487086892127991 6.817574024200439 1.487086892127991 7.175392627716064 C 1.487086892127991 7.533211231231689 1.527745962142944 7.880478858947754 1.590423107147217 8.220124244689941 L 0.47966068983078 8.86687183380127 C 0.02570439502596855 9.13094425201416 -0.1297568380832672 9.716444969177246 0.1323700696229935 10.17373085021973 L 1.081433892250061 11.83076477050781 C 1.343584418296814 12.28809833526611 1.923832297325134 12.44498920440674 2.3773193359375 12.18094062805176 L 3.499547958374023 11.52751064300537 C 4.023825645446777 11.97764492034912 4.619854927062988 12.34549903869629 5.282405376434326 12.58180999755859 L 5.282405376434326 13.39407730102539 C 5.282405376434326 13.92220020294189 5.707191944122314 14.35078525543213 6.230977058410645 14.35078525543213 L 8.128635406494141 14.35078525543213 C 8.652442932128906 14.35078525543213 9.077206611633301 13.9222240447998 9.077206611633301 13.39407730102539 L 9.077206611633301 12.58227729797363 C 9.739757537841797 12.34596824645996 10.33578491210938 11.97811412811279 10.86006355285645 11.52797889709473 L 11.98226833343506 12.18140888214111 C 12.43622493743896 12.4454345703125 13.01647281646729 12.28851890563965 13.2786226272583 11.83123397827148 L 14.22719383239746 10.1742000579834 C 14.49028396606445 9.715906143188477 14.3348217010498 9.130897521972656 13.88084125518799 8.866825103759766 Z M 13.16954231262207 10.1096248626709 L 12.69502258300781 10.93814182281494 C 12.56394672393799 11.16680812835693 12.27405738830566 11.24526405334473 12.04682159423828 11.1132287979126 L 10.72896480560303 10.34593486785889 C 10.05973052978516 11.10699081420898 9.155617713928223 11.65279483795166 8.129081726074219 11.86277294158936 L 8.129081726074219 12.91564083099365 C 8.129081726074219 13.17971515655518 7.916688442230225 13.39398384094238 7.654561996459961 13.39398384094238 L 6.705498695373535 13.39398384094238 C 6.443347930908203 13.39398384094238 6.230954647064209 13.17969226837158 6.230954647064209 12.91564083099365 L 6.230954647064209 11.86277294158936 C 5.204394340515137 11.65279483795166 4.300303936004639 11.10699081420898 3.63109302520752 10.34593486785889 L 2.313212871551514 11.1132287979126 C 2.086469650268555 11.24526596069336 1.796110987663269 11.16680812835693 1.665035843849182 10.93814182281494 L 1.191453576087952 10.1096248626709 C 1.060378313064575 9.88095760345459 1.138343572616577 9.588232040405273 1.365087151527405 9.456194877624512 L 2.688219308853149 8.685571670532227 C 2.530858755111694 8.210065841674805 2.436128377914429 7.704923152923584 2.436128377914429 7.175369262695313 C 2.436128377914429 6.645839691162109 2.530366182327271 6.140696048736572 2.688219308853149 5.664721965789795 L 1.36459481716156 4.8940749168396 C 1.137850999832153 4.762531280517578 1.060354828834534 4.469780921936035 1.1914302110672 4.241114616394043 L 1.665950417518616 3.412597417831421 C 1.797025799751282 3.183954238891602 2.086914777755737 3.105497121810913 2.314127445220947 3.237510204315186 L 3.632007837295532 4.004804134368896 C 4.300773143768311 3.243723630905151 5.20486307144165 2.697944402694702 6.231400012969971 2.487942934036255 L 6.231400012969971 1.435073852539063 C 6.231400012969971 1.171024322509766 6.443793773651123 0.9567081928253174 6.705944061279297 0.9567081928253174 L 7.655008316040039 0.9567081928253174 C 7.917157649993896 0.9567081928253174 8.129528045654297 1.171024322509766 8.129528045654297 1.435073852539063 L 8.129528045654297 2.487942934036255 C 9.156063079833984 2.697944402694702 10.06017780303955 3.244215965270996 10.72941112518311 4.004804134368896 L 12.04726696014404 3.237510204315186 C 12.27401065826416 3.105497121810913 12.56439304351807 3.183931112289429 12.69546604156494 3.412597417831421 L 13.16998863220215 4.241114616394043 C 13.30106258392334 4.469757556915283 13.2230978012085 4.762531280517578 12.99635314941406 4.894544124603271 L 11.67272758483887 5.665190696716309 C 11.83058071136475 6.141141891479492 11.92481899261475 6.646308898925781 11.92481899261475 7.175345420837402 C 11.92481899261475 7.704899311065674 11.83058071136475 8.209572792053223 11.67272758483887 8.685548782348633 L 12.99635314941406 9.456171989440918 C 13.22262859344482 9.588230133056641 13.30059432983398 9.88095760345459 13.16954231262207 10.1096248626709 Z M 7.180486679077148 4.78358793258667 C 5.870274066925049 4.78358793258667 4.80830717086792 5.854628562927246 4.80830717086792 7.175369262695313 C 4.80830717086792 8.496109962463379 5.870274543762207 9.56717586517334 7.180486679077148 9.56717586517334 C 8.490696907043457 9.56717586517334 9.552663803100586 8.496109962463379 9.552663803100586 7.175369262695313 C 9.55219554901123 5.854628562927246 8.490229606628418 4.78358793258667 7.180486679077148 4.78358793258667 Z M 7.180486679077148 8.610466003417969 C 6.394527435302734 8.610466003417969 5.757370948791504 7.968034267425537 5.757370948791504 7.175369262695313 C 5.757370948791504 6.382750988006592 6.394527435302734 5.74029541015625 7.180486679077148 5.74029541015625 C 7.966421604156494 5.74029541015625 8.60360050201416 6.382728099822998 8.60360050201416 7.175369262695313 C 8.60360050201416 7.968010902404785 7.966421604156494 8.610466003417969 7.180486679077148 8.610466003417969 Z">
+						</path>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<div id="user_outline_male_symbol_of_in">
+			<div id="_x36__17_">
+				<div id="Grupo_2701">
+					<svg class="Caminho_1867" viewBox="123.75 0 11.266 16.387">
+						<path fill="rgba(165,164,191,1)" id="Caminho_1867" d="M 132.9428100585938 8.373973846435547 C 133.5983123779297 7.489570617675781 133.9921264648438 6.35627269744873 133.9921264648438 5.121070861816406 C 133.9921264648438 2.292708396911621 131.9288482666016 0 129.3831634521484 0 C 126.8375015258789 0 124.7742080688477 2.292708396911621 124.7742080688477 5.121070861816406 C 124.7742080688477 6.35627269744873 125.1680221557617 7.489570617675781 125.8235244750977 8.373973846435547 C 124.6200637817383 8.790323257446289 123.7499923706055 9.921034812927246 123.7499923706055 11.26635456085205 L 123.7499923706055 13.31478309631348 C 123.7499923706055 15.01189613342285 125.1255264282227 16.38742446899414 126.822639465332 16.38742446899414 L 131.9437103271484 16.38742446899414 C 133.6408233642578 16.38742446899414 135.0163421630859 15.01189613342285 135.0163421630859 13.31478309631348 L 135.0163421630859 11.26635456085205 C 135.0163421630859 9.921034812927246 134.1462860107422 8.790323257446289 132.9428100585938 8.373973846435547 Z M 125.7984237670898 5.121070861816406 C 125.7984237670898 2.85857081413269 127.4033584594727 1.024214029312134 129.3831634521484 1.024214029312134 C 131.3629913330078 1.024214029312134 132.9679107666016 2.85857081413269 132.9679107666016 5.121070861816406 C 132.9679107666016 7.383570194244385 131.3629913330078 9.217926979064941 129.3831634521484 9.217926979064941 C 127.4033584594727 9.217926979064941 125.7984237670898 7.383570194244385 125.7984237670898 5.121070861816406 Z M 133.9921264648438 13.05872917175293 C 133.9921264648438 14.33132171630859 132.8665313720703 15.36321067810059 131.4781799316406 15.36321067810059 L 127.2881393432617 15.36321067810059 C 125.8998336791992 15.36321067810059 124.7742080688477 14.33132171630859 124.7742080688477 13.05872917175293 L 124.7742080688477 11.5224084854126 C 124.7742080688477 10.43367958068848 125.6002426147461 9.52672290802002 126.7079238891602 9.285525321960449 C 127.4627914428711 9.885713577270508 128.3845367431641 10.24214172363281 129.3831634521484 10.24214172363281 C 130.3817749023438 10.24214172363281 131.3035583496094 9.885713577270508 132.0584106445313 9.285525321960449 C 133.1660919189453 9.52672290802002 133.9921264648438 10.43367958068848 133.9921264648438 11.5224084854126 L 133.9921264648438 13.05872917175293 Z">
+						</path>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<div id="window_outline">
+			<div id="_x34__10_">
+				<div id="Grupo_2703">
+					<svg class="Caminho_1869" viewBox="0 0 16.297 16.297">
+						<path fill="rgba(141,168,244,1)" id="Caminho_1869" d="M 13.75075054168701 2.03714656829834 C 14.03187656402588 2.03714656829834 14.26003742218018 2.265307188034058 14.26003742218018 2.546433925628662 C 14.26003742218018 2.827560186386108 14.03187656402588 3.055721044540405 13.75075054168701 3.055721044540405 C 13.46962261199951 3.055721044540405 13.24146270751953 2.827560186386108 13.24146270751953 2.546433925628662 C 13.24146270751953 2.265307188034058 13.46962261199951 2.03714656829834 13.75075054168701 2.03714656829834 Z M 9.67645263671875 2.03714656829834 C 9.957578659057617 2.03714656829834 10.18573951721191 2.265307188034058 10.18573951721191 2.546433925628662 C 10.18573951721191 2.827560186386108 9.957578659057617 3.055721044540405 9.67645263671875 3.055721044540405 C 9.395326614379883 3.055721044540405 9.167165756225586 2.827560186386108 9.167165756225586 2.546433925628662 C 9.167165756225586 2.265307188034058 9.395326614379883 2.03714656829834 9.67645263671875 2.03714656829834 Z M 11.71360111236572 2.03714656829834 C 11.99472808837891 2.03714656829834 12.22288799285889 2.265307188034058 12.22288799285889 2.546433925628662 C 12.22288799285889 2.827560186386108 11.99472808837891 3.055721044540405 11.71360111236572 3.055721044540405 C 11.43247318267822 3.055721044540405 11.20431327819824 2.827560186386108 11.20431327819824 2.546433925628662 C 11.20431327819824 2.265307188034058 11.43247318267822 2.03714656829834 11.71360111236572 2.03714656829834 Z M 2.037146329879761 -1.843297013692791e-06 L 14.26003742218018 -1.843297013692791e-06 C 15.38504886627197 -1.843297013692791e-06 16.29718589782715 0.91213458776474 16.29718589782715 2.03714656829834 L 16.29718589782715 14.26003742218018 C 16.29718589782715 15.38504886627197 15.38504886627197 16.29718589782715 14.26003742218018 16.29718589782715 L 2.037146329879761 16.29718589782715 C 0.9121347665786743 16.29718589782715 -1.907348860186175e-06 15.38504886627197 -1.907348860186175e-06 14.26003742218018 L -1.907348860186175e-06 2.03714656829834 C -1.907348860186175e-06 0.91213458776474 0.9121347665786743 -1.843297013692791e-06 2.037146329879761 -1.843297013692791e-06 Z M 1.018571734428406 14.26003742218018 C 1.018571734428406 14.82229137420654 1.474387168884277 15.27861213684082 2.037146329879761 15.27861213684082 L 14.26003742218018 15.27861213684082 C 14.82279682159424 15.27861213684082 15.27861022949219 14.82279682159424 15.27861022949219 14.26003742218018 L 15.27861022949219 5.092868328094482 L 1.018571734428406 5.092868328094482 L 1.018571734428406 14.26003742218018 Z M 1.018571734428406 4.074294567108154 L 15.27861022949219 4.074294567108154 L 15.27861022949219 2.03714656829834 C 15.27861022949219 1.474387526512146 14.82279682159424 1.018572330474854 14.26003742218018 1.018572330474854 L 2.037146329879761 1.018572330474854 C 1.474387168884277 1.018572330474854 1.018571734428406 1.474387526512146 1.018571734428406 2.03714656829834 L 1.018571734428406 4.074294567108154 Z">
+						</path>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<div id="Grupo_2785">
+			<svg class="Interse__o_5_A6_BooleanGroup_12" viewBox="0 0 18.661 16.322">
+				<path fill="rgba(165,164,191,1)" stroke="rgba(202,206,213,1)" stroke-width="0.5px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Interse__o_5_A6_BooleanGroup_12" d="M 8.970300674438477 16.06949996948242 C 8.387100219726563 14.49090003967285 6.76170015335083 13.29750061035156 5.042700290679932 12.03030014038086 C 2.686500072479248 10.29150009155273 0.2484000027179718 8.495100021362305 0.01530000008642673 5.427900314331055 C -0.1943999975919724 2.671200037002563 1.776600003242493 0.6876000165939331 3.829500198364258 0.1547999978065491 C 5.517000198364258 -0.2880000174045563 7.89300012588501 0.1278000026941299 9.35099983215332 2.597399950027466 C 10.94130039215088 0.1161000058054924 13.2588005065918 -0.3032999932765961 14.98140048980713 0.1746000051498413 C 17.28720092773438 0.8118000030517578 18.79560089111328 2.966400146484375 18.6515998840332 5.416200160980225 C 18.47700119018555 8.456399917602539 16.00020027160645 10.29150009155273 13.60890007019043 12.06900024414063 C 11.89440059661865 13.34430027008057 10.27620029449463 14.54580020904541 9.697500228881836 16.06949996948242 C 9.638999938964844 16.22159957885742 9.494999885559082 16.32240104675293 9.332099914550781 16.32240104675293 C 9.168300628662109 16.32240104675293 9.024300575256348 16.22159957885742 8.970300674438477 16.06949996948242 Z M 4.023900032043457 0.9054000377655029 C 2.34089994430542 1.344600081443787 0.6065999865531921 2.927700042724609 0.792900025844574 5.365799903869629 C 0.9990000128746033 8.079299926757813 3.289499998092651 9.766799926757813 5.505300045013428 11.40030002593994 C 7.053300380706787 12.53970050811768 8.526599884033203 13.62779998779297 9.339300155639648 15.035400390625 C 10.14840030670166 13.67100048065186 11.61000061035156 12.58559989929199 13.14630031585693 11.44710063934326 C 15.39720058441162 9.774900436401367 17.72280120849609 8.048700332641602 17.87849998474121 5.373000144958496 C 18.01799964904785 2.943000078201294 16.3656005859375 1.364400029182434 14.77169990539551 0.9252000451087952 C 13.20480060577393 0.4932000041007996 11.04660034179688 0.9639000296592712 9.677700042724609 3.581099987030029 C 9.607500076293945 3.712500095367432 9.471600532531738 3.790800094604492 9.324000358581543 3.790800094604492 C 9.176400184631348 3.786300182342529 9.044099807739258 3.700800180435181 8.982000350952148 3.564900159835815 C 8.025300025939941 1.500300049781799 6.470099925994873 0.7731000185012817 5.066100120544434 0.7731000185012817 C 4.716000080108643 0.7731000185012817 4.366800308227539 0.8163000345230103 4.023900032043457 0.9054000377655029 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="STATISTICS_131994911363180250_">
+			<svg class="Caminho_2039" viewBox="8.037 31.449 2.75 4.075">
+				<path fill="rgba(165,164,191,1)" id="Caminho_2039" d="M 8.474498748779297 35.52387619018555 L 10.34962368011475 35.52387619018555 C 10.59112358093262 35.52387619018555 10.78712368011475 35.32831573486328 10.78712368011475 35.08637619018555 L 10.78712368011475 31.88650131225586 C 10.78712368011475 31.64456558227539 10.59112358093262 31.44900131225586 10.34962368011475 31.44900131225586 L 8.474498748779297 31.44900131225586 C 8.232998847961426 31.44900131225586 8.036998748779297 31.64456558227539 8.036998748779297 31.88650131225586 L 8.036998748779297 35.08637619018555 C 8.036998748779297 35.32787322998047 8.232998847961426 35.52387619018555 8.474498748779297 35.52387619018555 Z M 8.911998748779297 32.32356262207031 L 9.912123680114746 32.32356262207031 L 9.912123680114746 34.6484375 L 8.911998748779297 34.6484375 L 8.911998748779297 32.32356262207031 Z">
+				</path>
+			</svg>
+			<svg class="Caminho_2040" viewBox="16.608 18.123 2.75 9.905">
+				<path fill="rgba(165,164,191,1)" id="Caminho_2040" d="M 18.92062377929688 28.02799987792969 C 19.16212463378906 28.02799987792969 19.35812568664551 27.83243942260742 19.35812568664551 27.59049987792969 L 19.35812568664551 18.56050109863281 C 19.35812568664551 18.31856346130371 19.16212463378906 18.12300109863281 18.92062377929688 18.12300109863281 L 17.04550170898438 18.12300109863281 C 16.80400085449219 18.12300109863281 16.60800170898438 18.31856346130371 16.60800170898438 18.56050109863281 L 16.60800170898438 27.59049987792969 C 16.60800170898438 27.83243942260742 16.80400085449219 28.02799987792969 17.04550170898438 28.02799987792969 L 18.92062377929688 28.02799987792969 Z M 17.48300170898438 18.99799919128418 L 18.48312377929688 18.99799919128418 L 18.48312377929688 27.15300178527832 L 17.48300170898438 27.15300178527832 L 17.48300170898438 18.99799919128418 Z">
+				</path>
+			</svg>
+			<svg class="Caminho_2041" viewBox="25.18 24.96 2.75 6.914">
+				<path fill="rgba(165,164,191,1)" id="Caminho_2041" d="M 27.4921875 31.87381172180176 C 27.73369026184082 31.87381172180176 27.9296875 31.67824935913086 27.9296875 31.43630981445313 L 27.9296875 25.39749908447266 C 27.9296875 25.15556335449219 27.73369026184082 24.95999908447266 27.4921875 24.95999908447266 L 25.61750030517578 24.95999908447266 C 25.37600135803223 24.95999908447266 25.18000030517578 25.15556335449219 25.18000030517578 25.39749908447266 L 25.18000030517578 31.43630981445313 C 25.18000030517578 31.67824935913086 25.37600135803223 31.87381172180176 25.61750030517578 31.87381172180176 L 27.4921875 31.87381172180176 Z M 26.05500030517578 25.83499908447266 L 27.05512619018555 25.83499908447266 L 27.05512619018555 30.99881172180176 L 26.05500030517578 30.99881172180176 L 26.05500030517578 25.83499908447266 Z">
+				</path>
+			</svg>
+			<svg class="Caminho_2042" viewBox="33.751 8.763 2.75 14">
+				<path fill="rgba(165,164,191,1)" id="Caminho_2042" d="M 33.75099945068359 9.200499534606934 L 33.75099945068359 22.32550048828125 C 33.75099945068359 22.56743812561035 33.94699859619141 22.76300048828125 34.18849563598633 22.76300048828125 L 36.06362152099609 22.76300048828125 C 36.30512237548828 22.76300048828125 36.50112533569336 22.56743812561035 36.50112533569336 22.32550048828125 L 36.50112533569336 9.20050048828125 C 36.50112533569336 8.958563804626465 36.30512237548828 8.76300048828125 36.06362152099609 8.76300048828125 L 34.18849563598633 8.76300048828125 C 33.94699859619141 8.76300048828125 33.75099945068359 8.958562850952148 33.75099945068359 9.200499534606934 Z M 34.62599945068359 9.637999534606934 L 35.62612533569336 9.637999534606934 L 35.62612533569336 21.88800239562988 L 34.62599945068359 21.88800239562988 L 34.62599945068359 9.637999534606934 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="Layer_x0020_1">
+			<svg class="Caminho_2043" viewBox="0.005 -0.005 18.216 16.274">
+				<path fill="rgba(165,164,191,1)" id="Caminho_2043" d="M 2.468913078308105 8.71645450592041 C 2.468913078308105 8.484774589538574 2.666563987731934 8.296952247619629 2.910367727279663 8.296952247619629 C 3.154170751571655 8.296952247619629 3.351822376251221 8.484774589538574 3.351822376251221 8.71645450592041 L 3.351822376251221 15.43002033233643 L 7.296603202819824 15.43002033233643 L 7.296603202819824 12.623366355896 C 7.296603202819824 12.39168643951416 7.494253158569336 12.20386219024658 7.738057136535645 12.20386219024658 L 10.44781112670898 12.20386219024658 C 10.69161510467529 12.20386219024658 10.88926601409912 12.39168643951416 10.88926601409912 12.623366355896 L 10.88926601409912 15.43002033233643 L 14.74065113067627 15.43002033233643 L 14.74065113067627 8.479689598083496 C 14.74065113067627 8.248010635375977 14.93830299377441 8.060186386108398 15.18210697174072 8.060186386108398 C 15.4259090423584 8.060186386108398 15.62356090545654 8.248010635375977 15.62356090545654 8.479689598083496 L 15.62356090545654 15.84952163696289 C 15.62356090545654 16.08119773864746 15.4259090423584 16.26902198791504 15.18210697174072 16.26902198791504 L 10.44781303405762 16.26902198791504 C 10.20401000976563 16.26902198791504 10.00635814666748 16.08119773864746 10.00635814666748 15.84952163696289 L 10.00635814666748 13.04286670684814 L 8.179512977600098 13.04286670684814 L 8.179512977600098 15.84952163696289 C 8.179512977600098 16.08119773864746 7.981861114501953 16.26902198791504 7.738058090209961 16.26902198791504 L 2.910368919372559 16.26902198791504 C 2.666565418243408 16.26902198791504 2.468914270401001 16.08119773864746 2.468914270401001 15.84952163696289 L 2.468914270401001 8.716450691223145 Z M 0.7584238648414612 8.924239158630371 C 0.5860747694969177 9.088017463684082 0.3065442442893982 9.088017463684082 0.1342341303825378 8.924239158630371 C -0.03811505436897278 8.76046085357666 -0.03811505436897278 8.494831085205078 0.1342341303825378 8.331088066101074 L 8.777422904968262 0.117688000202179 C 8.949771881103516 -0.04609094187617302 9.229301452636719 -0.04609094187617302 9.401613235473633 0.117688000202179 L 12.97737121582031 3.515637636184692 L 12.99646472930908 1.617857456207275 C 12.99833965301514 1.387104749679565 13.19680976867676 1.201508283615112 13.43963813781738 1.203289151191711 C 13.68246555328369 1.205070376396179 13.87777423858643 1.393672227859497 13.875901222229 1.624424576759338 L 13.84848785400391 4.3434739112854 L 18.09149932861328 8.375499725341797 C 18.26385307312012 8.539278984069824 18.26385307312012 8.804910659790039 18.09149932861328 8.968653678894043 C 17.91915130615234 9.13243293762207 17.63962173461914 9.13243293762207 17.46731376647949 8.968653678894043 L 13.19657325744629 4.910282135009766 C 13.12227058410645 4.871767997741699 13.06100749969482 4.813513278961182 13.02051639556885 4.742977619171143 L 9.089516639709473 1.007452726364136 L 0.7584238648414612 8.924277305603027 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="Layer_x0020_1_A6_Group_228">
+			<svg class="Caminho_2044" viewBox="0.054 0.389 19.32 17.698">
+				<path fill="rgba(165,164,191,1)" id="Caminho_2044" d="M 6.409677982330322 4.77783203125 C 6.161213397979736 3.818063259124756 5.333454608917236 2.2475266456604 4.322131633758545 3.176543235778809 C 1.194131851196289 6.050094127655029 7.878397464752197 11.0810604095459 8.30914306640625 11.2974271774292 C 9.833918571472168 12.06345367431641 12.31426429748535 10.22438812255859 10.5309944152832 8.802682876586914 C 8.300405502319336 7.024354457855225 9.208486557006836 10.21974468231201 7.544648170471191 8.825530052185059 C 7.22052001953125 8.553906440734863 7.088100910186768 8.121782302856445 6.531141757965088 7.609460353851318 C 4.686357021331787 5.912487506866455 5.889436721801758 5.985550880432129 6.40968656539917 4.777838706970215 Z M 4.020876884460449 14.88922595977783 C 3.910288572311401 13.7197265625 4.254061698913574 12.51041030883789 3.542899608612061 11.90489673614502 C 3.250673532485962 11.65611743927002 2.971149444580078 11.59073925018311 2.596864223480225 11.20374584197998 C 2.361794471740723 10.96066665649414 2.059100866317749 10.6221227645874 1.825817227363586 10.31178379058838 C 0.799752414226532 8.94693660736084 0.6216388940811157 6.504683017730713 1.471128582954407 4.702448844909668 C 3.608543395996094 0.1676519364118576 11.84036064147949 0.06732507050037384 13.70602703094482 5.260567188262939 C 15.04956245422363 9.000636100769043 12.18104934692383 12.43883514404297 8.47981071472168 12.83888244628906 C 5.144379138946533 13.19938087463379 7.478655338287354 12.70652961730957 4.020925998687744 14.88922691345215 L 4.020876884460449 14.88922595977783 Z M 14.71224594116211 5.437333583831787 C 18.78111457824707 6.461536884307861 20.26109313964844 11.57165336608887 16.06635284423828 14.12348556518555 L 15.96176242828369 16.2586727142334 C 15.02619743347168 16.12985801696777 14.61117458343506 14.84952926635742 13.09388446807861 14.75201988220215 C 11.68629360198975 14.66159152984619 10.6801290512085 14.42348766326904 9.651129722595215 13.67494010925293 C 10.23999881744385 13.27456378936768 11.07469749450684 13.15879917144775 11.7780237197876 12.68403053283691 C 14.42853546142578 10.89474678039551 14.94308090209961 9.037152290344238 14.7122220993042 5.437344551086426 L 14.71224594116211 5.437333583831787 Z M 3.084809064865112 12.77760982513428 L 3.13591194152832 16.63151168823242 C 3.79731273651123 16.37039947509766 5.4919753074646 15.01352119445801 6.108466625213623 14.55080223083496 C 7.863799571990967 13.23329067230225 8.065530776977539 13.7894811630249 9.5689697265625 14.75992012023926 C 11.17159938812256 15.79436016082764 12.55715847015381 15.36074256896973 13.6569938659668 15.87389278411865 C 14.61746501922607 16.32205390930176 15.77406597137451 17.64227104187012 16.83598709106445 18.08628273010254 L 16.84462356567383 14.78901672363281 C 17.9500675201416 13.98327827453613 19.14943313598633 12.8344669342041 19.34163284301758 10.7648811340332 C 19.54330444335938 8.593582153320313 18.79935646057129 7.015014171600342 17.64861488342285 5.944022655487061 C 15.38875293731689 3.84086275100708 14.98490524291992 5.496134281158447 13.7667818069458 3.438607215881348 C 10.36302852630615 -2.310598134994507 -1.896518707275391 0.3465892374515533 0.3204983770847321 9.069180488586426 C 0.8320655226707458 11.08179759979248 1.778844356536865 11.66480445861816 3.084778785705566 12.77761363983154 L 3.084809064865112 12.77760982513428 Z">
+				</path>
+			</svg>
+		</div>
+	</div>
+	<div id="Print_this_page">
+		<svg class="path" viewBox="0 -24 24 24">
+			<path fill="transparent" id="path" d="M 24 0 L 0 0 L 0 -24 L 24 -24 L 24 0 Z">
+			</path>
+		</svg>
+		<svg class="ic_print" viewBox="2 -21 20 18">
+			<path fill="rgba(0,0,0,1)" id="ic_print" d="M 19 -16 L 5 -16 C 3.299999952316284 -16 2 -14.69999980926514 2 -13 L 2 -7 L 6 -7 L 6 -3 L 18 -3 L 18 -7 L 22 -7 L 22 -13 C 22 -14.69999980926514 20.70000076293945 -16 19 -16 L 19 -16 Z M 16 -5 L 8 -5 L 8 -10 L 16 -10 L 16 -5 L 16 -5 Z M 19 -12 C 18.39999961853027 -12 18 -12.39999961853027 18 -13 C 18 -13.60000038146973 18.39999961853027 -14 19 -14 C 19.60000038146973 -14 20 -13.60000038146973 20 -13 C 20 -12.39999961853027 19.60000038146973 -12 19 -12 L 19 -12 Z M 18 -21 L 6 -21 L 6 -17 L 18 -17 L 18 -21 L 18 -21 Z">
+			</path>
+		</svg>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+    "id": 14,
+    "contact": {
+      "id": 19,
+      "cep": "2104100",
+      "endereco": "av.bruxelas 83",
+      "complemento": "apt.201 fundos",
+      "cidade": "rio de janeiro",
+      "estado": "rj",
+      "telefone": "12345",
+      "telefone2": "123",
+      "email": "assoc",
+      "email2": "string",
+      "facebookAcount": "face",
+      "instagramAcount": "insta",
+      "twitterAcount": "twitter"
+    },
+    "certificacoes": ["CMAS","CMS"],
+    "name": "mfaAssoc",
+    "sigla": "ASSOC",
+    "cnpj": "111",
+    "dataFund": "31/03/1994",
+    "password": null,
+    "missao": "encantar",
+    "site": "site",
+    "presidente": "mais",
+    "mandatoIni": "02/11/2019",
+    "mandatoFim": "03/11/2019",
+    "lastUpdate": "02/11/2019 19:20:13"
+  }

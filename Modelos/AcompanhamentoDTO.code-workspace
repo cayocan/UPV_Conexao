@@ -1,0 +1,57 @@
+{
+    "tipoAcomp": "Receita",
+    "dt_atendimento": "06/11/2019",
+    "funcId": 27,
+    "funcNome": "funcNome",
+    "id": null,
+    "obs": "obs",
+    "paciId": 85,
+    "receita": {
+        "dt_ultTroca": "06/11/2019",
+        "id": null,
+        "medicamentos": [
+          {
+            "id": null,
+            "nome": "Medicamento1"
+          }
+        ],
+        "modelo": "modelo",
+        "nebulizador": true,
+        "periodicidades": "periodicidades"
+      }
+}
+
+{
+    "tipoAcomp": "Consulta",
+    "dt_atendimento": "06/11/2019",
+    "funcId": 27,
+    "funcNome": "funcNome",
+    "id": null,
+    "obs": "obs",
+    "paciId": 172,
+    "consulta": {
+    "consultaMedico": "consultaMedico",
+    "consultaMedicoEspec": "consultaMedicoEspec",
+    "id": 0
+  }
+}
+
+{
+    "tipoAcomp": "Internacao",
+    "dt_atendimento": "06/11/2019",
+    "funcId": 27,
+    "funcNome": "funcNome",
+    "id": null,
+    "obs": "obs",
+    "paciId": 172,
+    "internacao": {
+        "dt_Alta": "06/11/2019",
+        "dt_Internacao": "05/11/2019",
+        "hospital": "hospital",
+        "id": null,
+        "interMedico": "interMedico",
+        "interMedicoEspec": "interMedicoEspec",
+        "intercorrenciaMedica": "intercorrenciaMedica",
+        "obs": "obs"
+    }
+}
